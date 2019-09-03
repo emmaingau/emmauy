@@ -156,13 +156,14 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #E91E63;
+  background-color: #54C7CC;
   position: relative;
   z-index: 1;
   border-radius: 4px;
 }
 
 .btn-common:hover {
+  background-color: #337D80;
   color: #fff;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
@@ -312,6 +313,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-brand {
   position: relative;
+  width:25%;
   padding: 0px;
 }
 
@@ -559,7 +561,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .intro {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/bkg3.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   padding: 150px 0;
