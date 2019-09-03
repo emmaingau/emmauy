@@ -157,6 +157,7 @@ ul li, ol li {
 
 .btn-common {
   background-color: #54C7CC;
+  color:#2e2e2e;
   position: relative;
   z-index: 1;
   border-radius: 4px;
