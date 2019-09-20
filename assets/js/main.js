@@ -31,7 +31,7 @@
     /* ==========================================================================
     countdown timer
     ========================================================================== */
-     jQuery('#clock').countdown('2019/11/05 14:00',function(event){
+     jQuery('#clock').countdown('2019/11/07 15:00',function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> Días</div> '
       +'<div class="time-entry hours"><span>%H</span> Horas</div> '
