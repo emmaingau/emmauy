@@ -1,1 +1,0 @@
-<a href="/index.html"><img src="assets/img/logoemma.png" style="display:block; margin-left:auto; margin-right:auto; width:25%;"></a>
