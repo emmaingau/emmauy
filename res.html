@@ -177,7 +177,7 @@
         <!-- Header -->
         <header class="align--center pt3 pb2">
             <div class="container">
-                <a href="index.html"> <img style="width: 25%;" src="img/logo.png"></a>
+                <a href="index.html"> <img style="width: 25%;" src="res/logo.png"></a>
                 <p style="font-family:'Space Mono',Monaco,Menlo,Consolas,monospace;"><strong>Proyecto Multimedia - INGAU 2019</strong></p>
                 <br>
                
@@ -190,11 +190,17 @@
               <div class="container">
                 <ul class="list-group">
 
+                  <a style="text-decoration: none;" onClick="trailer()"><li class="list-group-item">
+                    <div class="textocentrado">Trailer</div>
+                </li></a> 
                   <a style="text-decoration: none;" onClick="carpeta()"><li class="list-group-item">
                     <div class="textocentrado">Carpeta de proyecto</div>
                 </li></a> 
                 <a style="text-decoration: none;" onClick="identidadgrafica()"><li class="list-group-item">
                   <div class="textocentrado">Identidad Gráfica</div>
+              </li></a> 
+              <a style="text-decoration: none;" onClick="estructura()"><li class="list-group-item">
+                  <div class="textocentrado">Estructura</div>
               </li></a> 
                 </ul>
             </div>
@@ -208,9 +214,9 @@
         <!-- Footer -->
         <footer class="mt2 pb3 align--center">
             <ul class="no-bullets list--inline mb0">
-                <li class="m1 block-on-mobile"><a href="https://www.instagram.com/_emma_uy/" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"></a></li>
+                <li class="m1 block-on-mobile"><a href="https://www.instagram.com/_emma_uy/" class="link"><img class="icon" src="res/instagram.svg" alt="Instagram"></a></li>
                 <!--<li class="m1 block-on-mobile"><a href="https://www.facebook.com" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"> Facebook</a></li>-->
-                <li class="m1 block-on-mobile"><a href="https://github.com/emmaingau/main" class="link"><img class="icon" src="/img/github.png" alt="Github"></a></li>
+                <li class="m1 block-on-mobile"><a href="https://github.com/emmaingau/main" class="link"><img class="icon" src="res/github.png" alt="Github"></a></li>
                 <p class="mt1 small text--gray">O <a href="mailto:cpjags@gmail.com">envía un mail</a>.</p>
 
             </ul>
@@ -222,10 +228,16 @@
     </div>
     |<script>
       function carpeta(){
-          window.open("img/Carpeta_Emma.jpg")    
+          window.open("res/Carpeta_Emma.jpg")    
       }
       function identidadgrafica(){
-          window.open("img/identidadgrafica.zip")    
+          window.open("res/identidadgrafica.zip")    
+      }
+      function estructura(){
+          window.open("res/estructura.pdf")
+      }
+      function trailer(){
+          window.open("res/trailer.mp4")
       }
     </script>
   
